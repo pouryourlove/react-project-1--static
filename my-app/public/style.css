@@ -28,6 +28,9 @@ body {
   width: 550px;
   height: 459px;
   color: #ffffff;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: right center;
 }
 .main--title {
   margin: 0;
@@ -49,4 +52,9 @@ body {
 
 .main--text > li {
   margin: 20.36px;
+}
+
+.main--text > li::marker {
+  font-size: 1.4rem;
+  color: #61dafb;
 }
